@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\fpga\laboratory\johnsonringcounter\top_ring.ncd
+OUTFILE=D:\fpga\laboratory\johnsonringcounter\top_ring.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=D:\fpga\laboratory\johnsonringcounter
+LICENSE=WebPack
+USER_INFO=210925608_0_0_214

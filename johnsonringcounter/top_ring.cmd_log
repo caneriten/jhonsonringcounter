@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "D:/fpga/laboratory/johnsonringcounter/top_ring.xst" -ofn "D:/fpga/laboratory/johnsonringcounter/top_ring.syr" 
+xst -intstyle ise -ifn "D:/fpga/laboratory/johnsonringcounter/top_ring.xst" -ofn "D:/fpga/laboratory/johnsonringcounter/top_ring.syr" 
+xst -intstyle ise -ifn "D:/fpga/laboratory/johnsonringcounter/top_ring.xst" -ofn "D:/fpga/laboratory/johnsonringcounter/top_ring.syr" 
+xst -intstyle ise -ifn "D:/fpga/laboratory/johnsonringcounter/top_ring.xst" -ofn "D:/fpga/laboratory/johnsonringcounter/top_ring.syr" 
+xst -intstyle ise -ifn "D:/fpga/laboratory/johnsonringcounter/top_ring.xst" -ofn "D:/fpga/laboratory/johnsonringcounter/top_ring.syr" 
+xst -intstyle ise -ifn "D:/fpga/laboratory/johnsonringcounter/top_ring.xst" -ofn "D:/fpga/laboratory/johnsonringcounter/top_ring.syr" 
+xst -intstyle ise -ifn "D:/fpga/laboratory/johnsonringcounter/top_ring.xst" -ofn "D:/fpga/laboratory/johnsonringcounter/top_ring.syr" 
+xst -intstyle ise -ifn "D:/fpga/laboratory/johnsonringcounter/top_ring.xst" -ofn "D:/fpga/laboratory/johnsonringcounter/top_ring.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc imp.ucf -p xc3s100e-cp132-4 top_ring.ngc top_ring.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc imp.ucf -p xc3s100e-cp132-4 top_ring.ngc top_ring.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_ring_map.ncd top_ring.ngd top_ring.pcf 
+par -w -intstyle ise -ol high -t 1 top_ring_map.ncd top_ring.ncd top_ring.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_ring.twx top_ring.ncd -o top_ring.twr top_ring.pcf -ucf imp.ucf 
+bitgen -intstyle ise -f top_ring.ut top_ring.ncd 
+xst -intstyle ise -ifn "D:/fpga/laboratory/johnsonringcounter/top_ring.xst" -ofn "D:/fpga/laboratory/johnsonringcounter/top_ring.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc imp.ucf -p xc3s100e-cp132-4 top_ring.ngc top_ring.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o top_ring_map.ncd top_ring.ngd top_ring.pcf 
+par -w -intstyle ise -ol high -t 1 top_ring_map.ncd top_ring.ncd top_ring.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml top_ring.twx top_ring.ncd -o top_ring.twr top_ring.pcf -ucf imp.ucf 
+bitgen -intstyle ise -f top_ring.ut top_ring.ncd 

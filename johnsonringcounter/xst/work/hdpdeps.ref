@@ -1,0 +1,18 @@
+V3 11
+FL D:/fpga/laboratory/johnsonringcounter/clkdiv.vhd 2023/01/20.12:47:37 P.20131013
+EN work/clkdiv 1674211913 FL D:/fpga/laboratory/johnsonringcounter/clkdiv.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clkdiv/Behavioral 1674211914 \
+      FL D:/fpga/laboratory/johnsonringcounter/clkdiv.vhd EN work/clkdiv 1674211913
+FL D:/fpga/laboratory/johnsonringcounter/dff.vhd 2023/01/20.12:13:30 P.20131013
+EN work/dff 1674211915 FL D:/fpga/laboratory/johnsonringcounter/dff.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dff/Behavioral 1674211916 \
+      FL D:/fpga/laboratory/johnsonringcounter/dff.vhd EN work/dff 1674211915
+FL D:/fpga/laboratory/johnsonringcounter/top_ring.vhd 2023/01/20.12:51:43 P.20131013
+EN work/top_ring 1674211917 FL D:/fpga/laboratory/johnsonringcounter/top_ring.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/top_ring/Behavioral 1674211918 \
+      FL D:/fpga/laboratory/johnsonringcounter/top_ring.vhd EN work/top_ring 1674211917 \
+      CP clkdiv CP dff

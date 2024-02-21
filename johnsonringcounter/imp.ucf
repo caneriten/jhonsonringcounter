@@ -1,0 +1,8 @@
+NET "mclk" LOC = "B8";
+NET "btn_clr" LOC = "N3";
+NET "btn_D" LOC = "E2";
+NET "led<0>" LOC = "G1";
+NET "led<1>" LOC = "P4";
+NET "led<2>" LOC = "N4";
+NET "led<3>" LOC = "N5";
+NET "led<4>" LOC = "P6";

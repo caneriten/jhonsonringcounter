@@ -1,0 +1,6 @@
+AR clkdiv behavioral D:/fpga/laboratory/johnsonringcounter/clkdiv.vhd sub00/vhpl01 1674211914
+EN dff NULL D:/fpga/laboratory/johnsonringcounter/dff.vhd sub00/vhpl02 1674211915
+EN top_ring NULL D:/fpga/laboratory/johnsonringcounter/top_ring.vhd sub00/vhpl04 1674211917
+EN clkdiv NULL D:/fpga/laboratory/johnsonringcounter/clkdiv.vhd sub00/vhpl00 1674211913
+AR top_ring behavioral D:/fpga/laboratory/johnsonringcounter/top_ring.vhd sub00/vhpl05 1674211918
+AR dff behavioral D:/fpga/laboratory/johnsonringcounter/dff.vhd sub00/vhpl03 1674211916

@@ -1,0 +1,3 @@
+vhdl work "D:\fpga\laboratory\johnsonringcounter\dff.vhd"
+vhdl work "D:\fpga\laboratory\johnsonringcounter\clkdiv.vhd"
+vhdl work "D:\fpga\laboratory\johnsonringcounter\top_ring.vhd"
